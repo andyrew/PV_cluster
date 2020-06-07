@@ -1,0 +1,6 @@
+gendaymtx -O1 -r -15 -m 4 -c 1 1 1 sunnydays.wea | \
+	rmtxop -c 0.33 0.34 0.33 - -ff > sunnydays_s.smx
+
+
+gendaymtx -O1 -r -15 -m 4 -c 1 1 1 Moffett.wea | \
+	rmtxop -c 0.33 0.34 0.33 - -ff > Moffett.smx
